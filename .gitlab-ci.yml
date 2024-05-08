@@ -1,0 +1,9 @@
+stages:
+  - Stage 1
+
+Hello:
+  stage: Stage 1
+  image:
+    name: 'ubuntu:jammy'
+  script:
+    - echo "It works. We will change this to something useful in the next session."

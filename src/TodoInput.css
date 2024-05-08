@@ -1,0 +1,51 @@
+.to-do-input {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    padding: 10px;
+
+    font-size: 20px;
+
+}
+
+/* Style for the button */
+
+.to-do-input button {
+
+    margin-left: 10px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    border: 2px solid rgba(0, 0, 0, 0.8);
+
+}
+
+/* Style for the button when hovered*/
+
+.to-do-input button:hover {
+
+    background-color: black;
+
+    color: aliceblue;
+
+    cursor: grabbing;
+
+}
+
+/* Style for the input */
+
+.to-do-input input {
+
+    font-size: 30px;
+
+    border-radius: 5px;
+
+}
